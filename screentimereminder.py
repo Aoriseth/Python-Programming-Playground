@@ -4,7 +4,7 @@ from threading import Thread
 
 
 def showScreenTimeReminder():
-	ctypes.windll.user32.MessageBoxW(0,"Test","Screen-Time-Reminder",0)
+	ctypes.windll.user32.MessageBoxW(0,"Look away from your screen!","Screen-Time-Reminder",0)
 
 
 if __name__ == '__main__':
