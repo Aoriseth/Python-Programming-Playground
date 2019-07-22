@@ -31,5 +31,5 @@ def drawPolygon(maxWidth,maxHeight):
 
 	
 xs,ys = getScreenWidthAndHeight()
-drawPolygon(xs, ys)
+# drawPolygon(xs, ys)
 drawScreenDiagonal(xs, ys)
